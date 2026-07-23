@@ -1,7 +1,18 @@
 aid: aware-health
 name: Aware Health
-description: Aware Health is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Aware Health is an AI-powered musculoskeletal (MSK) care platform that helps
+  employers, health plans, and brokers reduce MSK spend while preventing
+  orthopedic surgeries and chronic pain. The company pairs licensed clinicians
+  (physical therapists and health coaches) with an AI "Predict" engine to
+  triage, navigate, and manage musculoskeletal conditions virtually, and reports
+  reducing MSK costs by roughly 30%. Its platform spans MSK care, chronic care,
+  surgery decision support, member navigation, analytics, and an employer
+  dashboard, delivered via web and an iOS app. Aware Health is a Techstars
+  portfolio company and has raised seed funding (including a $3M round led by
+  Boomerang VC with Bright Ventures). This profile was enriched from the
+  company's public web surface; Aware Health does not currently publish a public
+  developer API, SDKs, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/aware-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,32 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.awarehealth.io/img/aware-health-logo-og.png
 tags:
 - Company
+- Health
+- Healthcare
+- Digital Health
+- Musculoskeletal
+- MSK Care
+- Virtual Care
+- Telehealth
+- Artificial Intelligence
+- Employee Benefits
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +54,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://awarehealth.io/
+  url: https://www.awarehealth.io/
+- type: Blog
+  url: https://blog.awarehealth.io/
+- type: Login
+  url: https://www.awarehealth.io/login
+- type: Support
+  url: https://www.awarehealth.io/contact
+- type: PrivacyPolicy
+  url: https://www.awarehealth.io/privacy
+- type: TermsOfService
+  url: https://www.awarehealth.io/terms
+- type: Compliance
+  url: https://www.awarehealth.io/hipaa-notice
+- type: TrustCenter
+  url: https://trust.awarehealth.io/
+- type: TrustCenter
+  url: security/aware-health-trust-center.yml
+- type: DomainSecurity
+  url: security/aware-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

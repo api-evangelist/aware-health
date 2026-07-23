@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+url: https://trust.awarehealth.io/
+provider: vanta
+certifications:
+- HIPAA
+compliance_programs:
+- id: hipaa
+  name: HIPAA
+  evidence: https://www.awarehealth.io/hipaa-notice
+notes: >-
+  Real Vanta-powered Trust Center at trust.awarehealth.io (HTTP 200; "Trust
+  Center" + "Compliance" sections; Vanta detected in page markup). Specific
+  certification badges (e.g. SOC 2, ISO 27001) are rendered client-side by
+  Vanta and could not be confirmed verbatim, so only HIPAA — which the company
+  publishes directly via its HIPAA Notice page — is asserted here. Aware Health
+  is a musculoskeletal (MSK) digital-health company handling PHI for employers
+  and health plans.
+evidence:
+- source: https://trust.awarehealth.io/
+  kind: trust-center
+  keywords: [trust center, compliance, vanta]
+- source: https://www.awarehealth.io/hipaa-notice
+  kind: hipaa-notice
